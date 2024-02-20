@@ -1,0 +1,36 @@
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: rgb(46, 44, 44);
+    padding: 20px;
+    color: white;
+    font-size: 12px;
+  }
+  
+  
+  table {
+    margin-bottom:20px;
+    width: 50%;
+    margin: auto; 
+    border-collapse: collapse;
+  }
+  
+ 
+  footer, ul {
+    background: rgb(46, 44, 44);
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+  }
+  
