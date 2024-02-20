@@ -1,16 +1,13 @@
-// Importation des modules nécessaires
 const express = require("express");
 const helmet = require("helmet");
 const cors = require("cors");
 const rateLimit = require("express-rate-limit");
-const bcrypt = require("bcrypt"); // Ajout de bcrypt
+const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 require("dotenv").config();
 
-// Importation de la connexion à la base de données
-const connection = require("./database"); // Assurez-vous que cela correspond à votre configuration de connexion unique
+const connection = require("./database");
 
-// Importation des modules de route (assurez-vous que ces fichiers existent et sont correctement configurés)
 const usersRoutes = require("./routes/usersRoutes");
 const commentsRoutes = require("./routes/commentsRoutes");
 const openingHoursRoutes = require("./routes/openingHoursRoutes");
